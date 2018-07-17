@@ -1,0 +1,68 @@
+html, body {margin: 0;padding:0}
+
+/*----------------------------------------------  Header, Footer CSS --------------------------------------------*/
+.wrapper {width:96%;margin:auto;height:100%;}
+.header {width:100%;height:116px;background-image: url('images/headerBG.png');border-radius:5px}
+.logo {float:right;width:225px;height:60px;margin-right:20px;background-image: url('images/header_logo.gif');background-repeat: no-repeat;margin-top:25px}
+.logo a {height:60px;width:255px;display:inline-block;}
+.title {color:#FFF;float:left;font-size:30px;font-weight:bold;position:absolute;top:20px;left:5%}
+.designation {color:#AAAAAA;float:left;font-size:26px;font-weight:bold;position:absolute;top:60px;left:5%}
+
+.tabsSection {position:fixed;top:116px;height: 400px;width:20%;}
+.tabsContainer {width:100%;height:auto;background-color:#2F4EA1;margin-top:10px;}
+.tabs {width:100%;}
+.tab {width:100%;margin-top:5px;line-height:30px;background-color:#FFF;}
+.tab a {display: inline-block;margin:auto;text-align:center;width:100%;font-size:20px;color: #FFF;text-decoration: none;background-color:#2F4EA1;border-radius:5px;}
+.boldText {font-weight:bold;}
+
+.goToTop {float:right;width:75px;height:75px;cursor:pointer;}
+.goToTop img {height:75px;width:75px;float:right;}
+
+.footer {height:40px;width:96%;position:fixed;background-image: url('images/headerBG.png');color:#FFF;bottom:0px;border-radius:5px;}
+.footer a {color:#FFF;text-decoration:none;margin-top:10px;margin-left:43%;display:inline-block;}
+
+/*----------------------------------------------  Home Page CSS ----------------------------------------------------*/
+
+.homePage .bodySection {height:auto;width:79.2%;float:right;}
+.homePage .profileData {width:100%;height:280px;float:left;}
+.homePage .bodySection .photo {height:auto;width:15%;float:left;padding-left:5%;padding-top:10px;}
+
+.homePage .bodySection .details {height:auto;width:60%;float:left;padding-top:10px;padding-left:15%;}
+.homePage .bodySection .details p {line-height:15px;font-size:20px;font-family:sans-serif;}
+.homePage .bodySection .details p.name {font-weight:bold;font-size:22px;}
+.homePage .bodySection .details .flashNewsWrapper {width:100%;position:relative;height:20px;overflow:hidden;}
+.homePage .bodySection .details .flashNews {width:700px;position:absolute;height:20px;left:0px;color:red;}
+.homePage .bodySection .homePageContent {width:98%;height:auto;float:left;padding-left:2%;}
+
+
+/*----------------------------------------------  Publications CSS --------------------------------------------------*/
+.publicationsPage .bodySection {height:auto;width:79.2%;float:right;}
+.publicationsPage .publicationDetails h2 {text-align:center;}
+.publicationsPage .publicationDetails ul {font-size:18px;}
+/*----------------------------------------------  Presentations CSS --------------------------------------------------*/
+.presentationPage .bodySection {height:auto;width:79.2%;float:right;}
+.presentationPage .presentationDetails h2 {text-align:center;}
+.presentationPage .presentationDetails ul li {list-style:none;line-height:25px;font-size:18px;margin-top:15px;}
+
+/*----------------------------------------------  Books CSS -------------------------------------------------------*/
+.booksPage .bodySection {height:auto;width:79.2%;float:right;}
+.booksPage .bodySection .booksDetails {padding-left:2%;width:98%;padding-top:2%;height:600px;}
+.booksPage .bodySection .booksDetails .book1, .booksPage .bodySection .booksDetails .book2 {width:25%;height:400px;float:left;}
+.booksPage .bodySection .booksDetails .book1 {background-color:#5C269E;}
+.booksPage .bodySection .booksDetails .book2 {background-color:#D1BC75;}
+.booksPage .bodySection .booksDetails .book2 img {float:right;}
+.booksPage .bodySection .booksDetails img {cursor:pointer;}
+.booksPage .bodySection .booksDetails .booksDescription {width:50%;height:400px;float:left;}
+.booksPage .bodySection .booksDetails .booksDescription .book1Description,
+.booksPage .bodySection .booksDetails .booksDescription .book2Description
+{width:95%;padding-left:3%;padding-top:5%;font-weight:bold;font-size:20px;height:43%;padding-right:2%;margin-top:0px;margin-bottom:0px;}
+.booksPage .bodySection .booksDetails .booksDescription .book1Description {background-color:#5C269E;color:white;position:relative;overflow:hidden;}
+.booksPage .bodySection .booksDetails .booksDescription .book2Description {background-color:#D1BC75;color:black;position:relative;overflow:hidden;}
+.booksPage .bodySection .booksDetails .booksDescription .book2Description .suggestions {font-size:16px;font-weight:bold;}
+.booksPage .goToTop {display:none;}
+
+.booksPage .bodySection .booksDetails .booksDescription .italicFont {font-style:italic;}
+.booksPage .bodySection .booksDetails .booksDescription .arrow-down1
+{width:0;height:0;border-left: 25px solid transparent;border-right: 25px solid transparent;border-bottom: 25px solid #D1BC75;position:absolute;bottom:0px;right:-25px;}
+.booksPage .bodySection .booksDetails .booksDescription .arrow-down2
+{width:0;height:0;border-left: 25px solid transparent;border-right: 25px solid transparent;border-top: 25px solid #5C269E;position:absolute;top:0px;left:-25px;}
