@@ -39,6 +39,7 @@ html, body {margin: 0;padding:0}
 .publicationsPage .bodySection {height:auto;width:79.2%;float:right;}
 .publicationsPage .publicationDetails h2 {text-align:center;}
 .publicationsPage .publicationDetails ul {font-size:18px;}
+
 /*----------------------------------------------  Presentations CSS --------------------------------------------------*/
 .presentationPage .bodySection {height:auto;width:79.2%;float:right;}
 .presentationPage .presentationDetails h2 {text-align:center;}
@@ -47,17 +48,23 @@ html, body {margin: 0;padding:0}
 /*----------------------------------------------  Books CSS -------------------------------------------------------*/
 .booksPage .bodySection {height:auto;width:79.2%;float:right;}
 .booksPage .bodySection .booksDetails {padding-left:2%;width:98%;padding-top:2%;height:600px;}
-.booksPage .bodySection .booksDetails .book1, .booksPage .bodySection .booksDetails .book2 {width:25%;height:400px;float:left;}
+.booksPage .bodySection .booksDetails .book1, 
+.booksPage .bodySection .booksDetails .book2,
+.booksPage .bodySection .booksDetails .book3 {width:25%;height:300px;float:left;}
 .booksPage .bodySection .booksDetails .book1 {background-color:#5C269E;}
 .booksPage .bodySection .booksDetails .book2 {background-color:#D1BC75;}
+.booksPage .bodySection .booksDetails .book3 {background-color:#5C269E;}
 .booksPage .bodySection .booksDetails .book2 img {float:right;}
+.booksPage .bodySection .booksDetails .book3 img {float:left;}
 .booksPage .bodySection .booksDetails img {cursor:pointer;}
 .booksPage .bodySection .booksDetails .booksDescription {width:50%;height:400px;float:left;}
 .booksPage .bodySection .booksDetails .booksDescription .book1Description,
-.booksPage .bodySection .booksDetails .booksDescription .book2Description
-{width:95%;padding-left:3%;padding-top:5%;font-weight:bold;font-size:20px;height:43%;padding-right:2%;margin-top:0px;margin-bottom:0px;}
+.booksPage .bodySection .booksDetails .booksDescription .book2Description,
+.booksPage .bodySection .booksDetails .booksDescription .book3Description
+{width:95%;padding-left:3%;padding-top:5%;font-weight:bold;font-size:20px;height:53%;padding-right:2%;margin-top:0px;margin-bottom:0px;}
 .booksPage .bodySection .booksDetails .booksDescription .book1Description {background-color:#5C269E;color:white;position:relative;overflow:hidden;}
 .booksPage .bodySection .booksDetails .booksDescription .book2Description {background-color:#D1BC75;color:black;position:relative;overflow:hidden;}
+.booksPage .bodySection .booksDetails .booksDescription .book3Description {background-color:#5C269E;color:white;position:relative;overflow:hidden;}
 .booksPage .bodySection .booksDetails .booksDescription .book2Description .suggestions {font-size:16px;font-weight:bold;}
 .booksPage .goToTop {display:none;}
 
@@ -66,3 +73,5 @@ html, body {margin: 0;padding:0}
 {width:0;height:0;border-left: 25px solid transparent;border-right: 25px solid transparent;border-bottom: 25px solid #D1BC75;position:absolute;bottom:0px;right:-25px;}
 .booksPage .bodySection .booksDetails .booksDescription .arrow-down2
 {width:0;height:0;border-left: 25px solid transparent;border-right: 25px solid transparent;border-top: 25px solid #5C269E;position:absolute;top:0px;left:-25px;}
+.booksPage .bodySection .booksDetails .booksDescription .arrow-down3
+{width:0;height:0;border-left: 25px solid transparent;border-right: 25px solid transparent;border-bottom: 25px solid #D1BC75;position:absolute;bottom:0px;right:-25px;}
