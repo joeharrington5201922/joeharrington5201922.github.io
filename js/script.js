@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	$('.bodySection .photo img').mouseover(function(){
-		$(this).attr('src','images/Joe_Simpson.bmp');
+		$(this).attr('src','images/joeHarrington2.bmp');
 	}).mouseout(function(){
-		$(this).attr('src',"images/joeHarrington.jpg");
+		$(this).attr('src',"images/joeHarrington2.jpg");
 	});
 
 	setInterval(
