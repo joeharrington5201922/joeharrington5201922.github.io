@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('.bodySection .photo img').mouseover(function(){
-		$(this).attr('src','images/joeHarrington2.bmp');
+		$(this).attr('src','images/joeHarrington2.jpg');
 	}).mouseout(function(){
 		$(this).attr('src',"images/joeHarrington2.jpg");
 	});
