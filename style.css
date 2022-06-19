@@ -60,6 +60,7 @@ html, body {margin: 0;padding:0}
 .booksPage .bodySection .booksDetails .book2 img {float:right;}
 .booksPage .bodySection .booksDetails .book3 img {float:left;}
 .booksPage .bodySection .booksDetails .book4 img {float:right;}
+.booksPage .bodySection .booksDetails .book4 {float:right;}
 .booksPage .bodySection .booksDetails img {cursor:pointer;}
 .booksPage .bodySection .booksDetails .booksDescription {width:50%;height:400px;float:left;}
 .booksPage .bodySection .booksDetails .booksDescription .book1Description,
