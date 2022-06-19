@@ -24,7 +24,7 @@ $(document).ready(function(){
 		$("html, body").animate({ scrollTop: 0 }, "slow");
 	})
 
-	$('.book1, .book2, .book3, .booksDescription').css('height',$('.booksPage .book1').width()+50+"px");
+	$('.book1, .book2, .book3, .book4, .booksDescription').css('height',$('.booksPage .book1').width()+50+"px");
 	$('.book1 img').click(function(){
 		window.open('https://mitpress.mit.edu/books/economics-regulation-and-antitrust-fifth-edition');
 	});
@@ -33,5 +33,8 @@ $(document).ready(function(){
 	});
 	$('.book3 img').click(function(){
 		window.open('https://mitpress.mit.edu/books/theory-collusion-and-competition-policy');
+	});
+	$('.book4 img').click(function(){
+		window.open('https://mitpress.mit.edu/books/hub-and-spoke-cartels');
 	});
 });
