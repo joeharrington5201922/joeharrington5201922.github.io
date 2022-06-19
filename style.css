@@ -51,11 +51,12 @@ html, body {margin: 0;padding:0}
 .booksPage .bodySection .booksDetails .book1, 
 .booksPage .bodySection .booksDetails .book2,
 .booksPage .bodySection .booksDetails .book3,
-.booksPage .bodySection .booksDetails .book4 {width:25%;height:300px;float:left;}
+.booksPage .bodySection .booksDetails .book4 {width:25%;height:300px;}
 .booksPage .bodySection .booksDetails .book1 {background-color:#5C269E;}
 .booksPage .bodySection .booksDetails .book2 {background-color:#D1BC75;}
 .booksPage .bodySection .booksDetails .book3 {background-color:#5C269E;}
 .booksPage .bodySection .booksDetails .book4 {background-color:#D1BC75;}
+.booksPage .bodySection .booksDetails .book1 img {float:left;}
 .booksPage .bodySection .booksDetails .book2 img {float:right;}
 .booksPage .bodySection .booksDetails .book3 img {float:left;}
 .booksPage .bodySection .booksDetails .book4 img {float:right;}
