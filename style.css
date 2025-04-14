@@ -47,7 +47,14 @@ html, body {margin: 0;padding:0}
 
 /*----------------------------------------------  Books CSS -------------------------------------------------------*/
 .booksPage .bodySection {height:auto;width:79.2%;float:right;}
-.booksPage .bodySection .booksDetails {padding-left:2%;width:98%;padding-top:2%;height:600px;}
+.booksPage .bodySection .booksDetails {
+    padding-left: 2%;
+    width: 98%;
+    padding-top: 2%;
+    height: auto;
+    overflow: hidden;
+}
+
 .booksPage .bodySection .booksDetails .book1, 
 .booksPage .bodySection .booksDetails .book2,
 .booksPage .bodySection .booksDetails .book3,
