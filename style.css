@@ -68,7 +68,6 @@ html, body {margin: 0;padding:0}
 .booksPage .bodySection .booksDetails .book5 {
     width: 25%;
     height: 300px;
-    float: left;
 }
 
 /* Float alternation for symmetry */
@@ -115,9 +114,13 @@ html, body {margin: 0;padding:0}
     cursor: pointer;
 }
 
+/* Flexible-height description container */
 .booksPage .bodySection .booksDetails .booksDescription {
     width: 50%;
     float: left;
+    height: auto;           /* allow content to determine height */
+    min-height: 400px;      /* optional baseline height */
+    margin-bottom: 40px;    /* space before next row */
 }
 
 /* Description blocks for each book */
@@ -135,6 +138,7 @@ html, body {margin: 0;padding:0}
     margin-top: 0px;
     margin-bottom: 0px;
     position: relative;
+    overflow: visible;
 }
 
 /* Description background colors and text */
