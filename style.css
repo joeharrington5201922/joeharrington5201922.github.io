@@ -48,10 +48,13 @@ html, body {margin: 0;padding:0}
 /*----------------------------------------------  Books CSS -------------------------------------------------------*/
 .booksPage .bodySection {
     height: auto;
-    width: 79.2%;
+    width: 75%;
     float: right;
+    margin-left: 22%;  /* Adjust for sidebar width + buffer */
     padding: 2%;
+    box-sizing: border-box;
 }
+
 
 /* Books container */
 .booksPage .booksDetails {
@@ -125,25 +128,6 @@ html, body {margin: 0;padding:0}
     font-weight: bold;
 }
 
-/* Arrow styling (reused for all) */
-.bookDescription .arrow-down {
-    position: absolute;
-    bottom: 0px;
-    right: -25px;
-    width: 0;
-    height: 0;
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
-}
-
-/* Arrow color based on background */
-.bookDescription.purple .arrow-down {
-    border-bottom: 25px solid #D1BC75;
-}
-
-.bookDescription.tan .arrow-down {
-    border-bottom: 25px solid #5C269E;
-}
 
 .booksPage .goToTop {
     display: none;
