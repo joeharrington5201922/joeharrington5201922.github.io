@@ -85,3 +85,48 @@ html, body {margin: 0;padding:0}
 {width:0;height:0;border-left: 25px solid transparent;border-right: 25px solid transparent;border-bottom: 25px solid #D1BC75;position:absolute;bottom:0px;right:-25px;}
 .booksPage .bodySection .booksDetails .booksDescription .arrow-down4
 {width:0;height:0;border-left: 25px solid transparent;border-right: 25px solid transparent;border-top: 25px solid #5C269E;position:absolute;top:0px;left:-25px;}
+
+/* ---------- New Book 5 (Cartels Diagnosed) Styling ---------- */
+
+.booksPage .bodySection .booksDetails .book5 {
+    width: 25%;
+    height: 300px;
+    float: left; /* Continue alternating left/right */
+    background-color: #5C269E;
+}
+
+.booksPage .bodySection .booksDetails .book5 img {
+    float: left;
+}
+
+.booksPage .bodySection .booksDetails .booksDescription .book5Description {
+    width: 95%;
+    padding-left: 3%;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    height: 53%;
+    padding-right: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #5C269E;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.booksPage .bodySection .booksDetails .booksDescription .book5Description .suggestions {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.booksPage .bodySection .booksDetails .booksDescription .arrow-down5 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #D1BC75; /* alternate arrow direction */
+    position: absolute;
+    top: 0px;
+    left: -25px;
+}
